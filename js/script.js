@@ -54,7 +54,6 @@ let setDate = setInterval(() => {
     digitalMin.innerText = mins;
   }
 
-
   let hours = date.getHours();
   let hourDegrees = ((hours / 12) * 360) + ((mins / 60) * 30) + 90;
   hourHand.style.transform = `rotate(${hourDegrees}deg)`;
@@ -86,7 +85,6 @@ function changeTheme() {
   document.getElementById('dateYear').classList.toggle('light-text');
   document.getElementById('digitalHours').classList.toggle('light-text');
   document.getElementById('digitalMin').classList.toggle('light-text');
-  // document.getElementById('digitalSec').classList.toggle('light-text');
   document.getElementById('pointOne').classList.toggle('light-text');
   document.getElementById('pointTwo').classList.toggle('light-text');
 }
