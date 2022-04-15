@@ -430,6 +430,10 @@ meter {
   height: 150px;
 }
 
+.digital__sec {
+  color: #ee791a;
+}
+
 .digital__date {
   width: 100%;
   height: 60%;
@@ -505,7 +509,6 @@ label {
   width: 80px;
   height: 50px;
   background: #fbfbfb;
-  border: 1px solid #e8eae9;
   display: block;
   border-radius: 100px;
   position: relative;
@@ -518,7 +521,7 @@ label:after {
   left: 5px;
   width: 40px;
   height: 40px;
-  background: #fbfbfb;
+  background: #272727;
   -webkit-box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.1), 0 4px 0 rgba(0, 0, 0, 0.08);
           box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.1), 0 4px 0 rgba(0, 0, 0, 0.08);
   border-radius: 50%;
@@ -527,7 +530,7 @@ label:after {
 }
 
 input:checked + label {
-  background: #272727;
+  background: #696773;
 }
 
 input:checked + label:after {
@@ -543,6 +546,14 @@ label:active:after {
 .toggleBtn {
   position: absolute;
   bottom: 50px;
+  right: 70px;
+}
+
+.changeT {
+  font-family: 'Quicksand', sans-serif;
+  color: #696773;
+  position: absolute;
+  bottom: 110px;
   right: 50px;
 }
 

@@ -86,7 +86,7 @@ function changeTheme() {
   document.getElementById('dateYear').classList.toggle('light-text');
   document.getElementById('digitalHours').classList.toggle('light-text');
   document.getElementById('digitalMin').classList.toggle('light-text');
-  document.getElementById('digitalSec').classList.toggle('light-text');
+  // document.getElementById('digitalSec').classList.toggle('light-text');
   document.getElementById('pointOne').classList.toggle('light-text');
   document.getElementById('pointTwo').classList.toggle('light-text');
 }
